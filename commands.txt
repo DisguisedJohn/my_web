@@ -1,0 +1,8 @@
+#Virtualni prostredi
+python -m venv virtual 				
+source virtual/Scripts/activate 	
+
+
+#Dynamicke nacitani stranky (neni potreba zabijet a zapinat)
+export FLASK_ENV=development
+export FLASK_APP=app.py #nazev hlavniho skriptu
